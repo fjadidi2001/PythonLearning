@@ -1,5 +1,5 @@
 # py var
-- int `int()`
-- float `float()`
+- int <br> convert to int `int()`
+- float <br>convert to f `float()`
 - string 
-- boolean `bool()`
+- boolean  convert to bool `bool()`
