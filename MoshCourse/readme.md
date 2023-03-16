@@ -2,4 +2,4 @@
 - int <br> convert to int `int()`
 - float <br>convert to f `float()`
 - string 
-- boolean  convert to bool `bool()`
+- boolean  <br>convert to bool `bool()`
