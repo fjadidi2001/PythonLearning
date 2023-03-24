@@ -15,3 +15,10 @@ replace()
 # operator
 / + - *
 ** power
+
+# logical operator
+* and
+* or
+* not
+
+
