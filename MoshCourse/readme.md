@@ -8,3 +8,10 @@
 len()
 upper()
 lower()
+find()
+replace()
+---- in ----
+
+# operator
+/ + - *
+** power
