@@ -32,4 +32,14 @@ replace()
 - sort()
 - reverse()
 - copy()
-- 
+
+# tuple
+()
+# unpacking
+ty=(4,5,8)
+x, y, z=ty
+output=>x=4,y=5,z=8
+# dictionary
+{}
+key:value
+key must be unique
