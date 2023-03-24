@@ -43,3 +43,10 @@ output=>x=4,y=5,z=8
 {}
 key:value
 key must be unique
+# function
+def name_def(parameter): 
+    return uses
+name_def(argument) 
+
+return None
+# handel error
