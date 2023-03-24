@@ -21,4 +21,15 @@ replace()
 * or
 * not
 
-
+# list method
+- append()
+- insert(index, object)
+- remove()
+- clear()=>empty list
+- pop()=>remove last item in a list
+- index()=>return index
+- count()
+- sort()
+- reverse()
+- copy()
+- 
