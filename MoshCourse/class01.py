@@ -8,3 +8,6 @@ class Person:
 
 fateme = Person("Fatemeh Jadidi")
 fateme.talk()
+Amin = Person("Amin Mmdpour")
+Amin.talk()
+
