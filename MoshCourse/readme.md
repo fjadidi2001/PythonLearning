@@ -65,5 +65,7 @@ Almost everything in Python is an object, with its properties and methods.
 # constractor
 is a function for create object<br>
 **All classes have a function called __init__(), which is always executed when the class is being initiated.**
-
+# module
+when you need use module 
+just use import or when you need just one of the function in module use:from .... import .....
 
