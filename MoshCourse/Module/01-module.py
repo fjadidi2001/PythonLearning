@@ -1,5 +1,4 @@
-from utils import find_max
-
+from utils import find_maximum
 numbers = [4, 5, 5, 3, 10]
-# max = find_max(numbers)
-print(max(numbers))
+maximum = find_maximum(numbers)
+print(find_maximum(numbers))
