@@ -59,3 +59,11 @@ with # sign
 why and how not what
 # classes
 class => define new type
+Python is an object-oriented programming language.
+<br>
+Almost everything in Python is an object, with its properties and methods.
+# constractor
+is a function for create object<br>
+**All classes have a function called __init__(), which is always executed when the class is being initiated.**
+
+
