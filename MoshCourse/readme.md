@@ -50,3 +50,12 @@ name_def(argument)
 
 return None
 # handel error
+exit code 0 => its run correctly
+exit code 1 => program crashed => user enter an invalid value=>handle with try: and except
+
+# comment
+added note, reminder, readability
+with # sign
+why and how not what
+# classes
+class => define new type
