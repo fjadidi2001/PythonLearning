@@ -12,4 +12,12 @@ store multiple items in a single var <br>
 <br>
  Sets are unordered, so you cannot be sure in which order the items will appear.
 <br>
-
+There are four collection data types in the Python programming language:
+<br>
+List is a collection which is ordered and changeable. Allows duplicate members.
+<br>
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+<br>
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+<br>
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
