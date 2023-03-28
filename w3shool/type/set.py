@@ -31,4 +31,9 @@ print(seti2)
 seti1.clear()
 print(seti1)
 del seti0
-print(seti0)
+
+print("===============================")
+se1 = {"fati", "jadidi", True, 7.58}
+se2 = set(("zi", "jadidi", False, 10.2))
+se3 = se1.union(se2)
+print(se3)
