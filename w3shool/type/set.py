@@ -18,3 +18,17 @@ print(seti3)
 listi = ["ha", "joker"]
 seti2.update(listi)
 print(seti2)
+seti2.remove("one")
+# Note: If the item to remove does not exist, remove() will raise an error.
+print(seti2)
+seti2.discard("one")
+# Note: If the item to remove does not exist, discard() will NOT raise an error.
+print(seti2)
+# pop
+f = seti2.pop()
+print(f)
+print(seti2)
+seti1.clear()
+print(seti1)
+del seti0
+print(seti0)

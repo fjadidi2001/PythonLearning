@@ -21,3 +21,6 @@ Tuple is a collection which is ordered and unchangeable. Allows duplicate member
 Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 <br>
 Dictionary is a collection which is ordered** and changeable. No duplicate members.
+<br>
+**You can also use the pop() method to remove an item, but this method will remove a random item, so you cannot be sure what item that gets removed**
+<br>
