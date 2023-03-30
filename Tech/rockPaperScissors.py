@@ -4,7 +4,7 @@ userWins = 0
 computerWins = 0
 options = ["rock", "paper", "scissors"]
 while True:
-    user_input = input("Type R/P/S or Q to quit: ").lower()
+    user_input = input("Type rock or paper or scissors or Q to quit: ").lower()
     if user_input == "q":
         break
     if user_input not in options:
