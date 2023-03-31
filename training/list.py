@@ -1,5 +1,11 @@
-p = [12, 16, 11, 18, 11, 12]
-if p[0] == p[5]:
-    print("True")
-else:
-    print("False")
+def firstLast(numberList):
+    firstNum = numberList[0]
+    lastNum = numberList[-1]
+    if firstNum == lastNum:
+        return True
+    else:
+        return False
+
+
+number = [10, 20, 30, 10, 21, 45, 75]
+print("result is", firstLast(number))
