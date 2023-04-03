@@ -4,3 +4,4 @@ cal = len(olm)
 for i in range(0, cal - 1, 2):
     print(olm[i])
 
+
