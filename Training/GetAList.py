@@ -6,3 +6,15 @@ for i in range(0, n):
     lst.append(ele)
 print(lst)
 
+print("=======================")
+
+# with exception handling (input just int and stop with stop)
+
+try:
+    my_list = []
+    while True:
+        my_list.append(int(input()))
+
+except:
+    print(my_list)
+print("=======================")
