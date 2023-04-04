@@ -5,4 +5,5 @@ a = list(map(int,
 print("\nGiven list is ", a)
 
 for i in a:
-    print("Div by 5", i)
+    if i % 5 == 0:
+        print( i)
