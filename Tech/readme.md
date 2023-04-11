@@ -41,3 +41,8 @@ another source:
          exist.  The stream is positioned at the end of the file.  Subse-
          quent writes to the file will always end up at the then current
          end of file, irrespective of any intervening fseek(3) or similar.
+
+<br>
+rstrip() => prints without any spaces at the end
+<br>
+.split("|") => it return a list replace what you have
