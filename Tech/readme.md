@@ -46,3 +46,8 @@ another source:
 rstrip() => prints without any spaces at the end
 <br>
 .split("|") => it return a list replace what you have
+<br>
+
+1. pip install <pkg name>
+2. pip3 install <pkg name>
+3. python3 -m pip install <pkg name>
