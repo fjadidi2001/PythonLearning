@@ -3,7 +3,7 @@
 s = input('enter string: ')
 
 
-def palindrome(string):
+def palindrome( string):
     x = ""
     for i in string:
         x = i + x
