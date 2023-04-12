@@ -36,3 +36,8 @@ pop()	Removes the element at the specified position
 remove()	Removes the first item with the specified value
 reverse()	Reverses the order of the list
 sort()	Sorts the list
+<br>
+
+
+**Note: This page shows you how to use LISTS as ARRAYS, however, to work with arrays in Python you will have to import a library, like the NumPy library.**
+<br>
