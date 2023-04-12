@@ -41,3 +41,5 @@ sort()	Sorts the list
 
 **Note: This page shows you how to use LISTS as ARRAYS, however, to work with arrays in Python you will have to import a library, like the NumPy library.**
 <br>
+An array can hold many values under a single name, and you can access the values by referring to an index number.
+
