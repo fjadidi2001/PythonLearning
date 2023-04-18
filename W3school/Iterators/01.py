@@ -1,0 +1,5 @@
+varTuple = ("fatem", "jadidi", "ghazal")
+myit = iter(varTuple)
+print(next(myit))
+print(next(myit))
+print(next(myit))
