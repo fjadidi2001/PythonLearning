@@ -8,3 +8,4 @@ def index(request):
 
 def new(request):
     return HttpResponse("what is that?")
+
