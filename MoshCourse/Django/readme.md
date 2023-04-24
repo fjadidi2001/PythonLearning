@@ -3,4 +3,4 @@
 3. python3 manage.py makemigrations
 4. python3 manage.py migrate
 5. python3 manage.py createsuperuser
-6.  
+6.  {% %} return structure
