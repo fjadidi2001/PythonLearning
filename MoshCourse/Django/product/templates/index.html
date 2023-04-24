@@ -8,9 +8,9 @@
 <h1>Products</h1>
 <ul>
     {% for product in products %}
-    <li>Item1</li>
-    <li>Item2</li>
-    <li>Item3</li>
+        <li>{{ product.name }}</li>
+    {% endfor %}
+
 </ul>
 </body>
 </html>
