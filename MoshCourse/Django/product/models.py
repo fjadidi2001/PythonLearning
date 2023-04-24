@@ -9,6 +9,6 @@ class Product(models.Model):
 
 
 class Offer(models.Model):
-    code = models.CharField(max_length=255)
-    des = models.IntegerField(max_length=2083)
-    dis = models.IntegerField(max_length=2083)
+    code = models.CharField(max_length=10)
+    des = models.CharField(max_length=255)
+    dis = models.FloatField()
