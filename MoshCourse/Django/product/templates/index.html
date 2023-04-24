@@ -5,6 +5,8 @@
     <title>Title</title>
 </head>
 <body>
+{% extends 'base.html' %}
+{% block content %}
 <h1>Products</h1>
 <ul>
     {% for product in products %}
@@ -12,5 +14,6 @@
     {% endfor %}
 
 </ul>
+{% endblock %}
 </body>
 </html>
