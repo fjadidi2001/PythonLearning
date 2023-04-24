@@ -9,3 +9,4 @@
 data with (${{ }})
 9. if you have multiple app you have create a directory in root and move base file in your template directory(in root) then you go to settngs
 and change TEMPLATES 'DIRS':os.path.join(BASE_DIR, 'templates')
+10. final thing: you can use div.name class to create div in html
