@@ -27,3 +27,10 @@ class Vector2(object):
 
 def __truediv__(self, scalar):
     return self.__div__(scalar)
+
+
+def __eq__(self, other):
+    if abs(self.x - other.x) < self.thresh:
+        if abs(self.y - other.y) < self.thresh:
+            return True
+    return False
