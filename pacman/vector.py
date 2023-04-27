@@ -42,3 +42,15 @@ def magnitudeSquared(self):
 
 def magnitude(self):
     return math.sqrt(self.magnitudeSquared())
+
+
+def copy(self):
+    return Vector2(self.x, self.y)
+
+
+def asTuple(self):
+    return self.x, self.y
+
+
+def asInt(self):
+    return int(self.x), int(self.y)
