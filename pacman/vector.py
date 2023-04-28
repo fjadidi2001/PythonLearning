@@ -54,3 +54,7 @@ def asTuple(self):
 
 def asInt(self):
     return int(self.x), int(self.y)
+
+
+def __str__(self):
+    return "<" + str(self.x) + ", " + str(self.y) + ">"
