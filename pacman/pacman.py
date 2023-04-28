@@ -31,3 +31,8 @@ class Pacman(object):
         if key_pressed[K_RIGHT]:
             return RIGHT
         return STOP
+
+    def render(self, screen):
+        p = self.position.asInt()
+        pygame.draw.circle(screen, self.color, p, self.radius)
+
