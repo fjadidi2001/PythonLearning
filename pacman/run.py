@@ -44,7 +44,30 @@ def __init__(self):
     ...
     self.clock = pygame.time.Clock()
 
+
 def update(self):
     dt = self.clock.tick(30) / 1000.0
     self.checkEvents()
     self.render()
+
+
+...
+from pacman import Pacman
+
+
+def startGame(self):
+    ...
+    self.pacman = Pacman()
+
+
+def update(self):
+    dt = self.clock.tick(30) / 1000.0
+    self.pacman.update(dt)
+    self.checkEvents()
+    self.render()
+
+
+def render(self):
+    self.screen.blit(self.background, (0, 0))
+    self.pacman.render(self.screen)
+    pygame.display.update()
