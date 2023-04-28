@@ -38,3 +38,13 @@ if __name__ == "__main__":
     game.startGame()
     while True:
         game.update()
+
+
+def __init__(self):
+    ...
+    self.clock = pygame.time.Clock()
+
+def update(self):
+    dt = self.clock.tick(30) / 1000.0
+    self.checkEvents()
+    self.render()
