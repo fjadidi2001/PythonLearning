@@ -17,3 +17,13 @@ while temp > 0:
     ctr += 1
 
 print("Binary of {x} is: {y}".format(x=num, y=octal))
+
+
+def dectoOct(num):
+    if num > 0:
+        dectoOct(int(num / 8))
+        print(num % 8, end='')
+
+
+print("Octal: ", end='')
+dectoOct(num)
