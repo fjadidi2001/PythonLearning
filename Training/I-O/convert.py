@@ -4,3 +4,16 @@ print(f'this is Decimal number: {num}', 'and convert this number to octal is: %o
 # another solution
 Decimal = oct(num)
 print(f'this is Decimal number: {num}', f'and convert this number to octal is: {Decimal}')
+# another solution
+
+octal = 0
+ctr = 0
+temp = num  # copying number
+
+# computing octal using while loop
+while temp > 0:
+    octal += ((temp % 8) * (10 ** ctr))  # Stacking remainders
+    temp = int(temp / 8)  # updating dividend
+    ctr += 1
+
+print("Binary of {x} is: {y}".format(x=num, y=octal))
