@@ -1,0 +1,1 @@
+# Exercise 10: Read line number 4 from the following file
