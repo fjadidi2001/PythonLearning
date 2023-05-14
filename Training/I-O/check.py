@@ -11,7 +11,7 @@
 # another solution
 # import os
 #
-# size = os.stat("text.txt").st_size
+# size = os.stat("new_file.txt").st_size
 # if size == 0:
 #     print('file is empty')
 
@@ -30,7 +30,7 @@
 # another solution
 
 import os
-if os.path.getsize('text.txt')==0:
+if os.path.getsize('new_file.txt')==0:
     print('file is empty')
 else:
     print('file is not empty')
