@@ -1,3 +1,4 @@
+# Exercise 8: Format variables using a string.format() method.
 totalMoney = int(input('Enter your total money: '))
 quantity = int(input('How many do you want to buy thing?: '))
 price = int(input('Enter the price:'))
