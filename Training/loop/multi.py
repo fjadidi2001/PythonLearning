@@ -1,0 +1,1 @@
+# Exercise 4: Write a program to print multiplication table of a given number
