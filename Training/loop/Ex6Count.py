@@ -1,2 +1,2 @@
 
-# Exercise 5: Display numbers from a list using loop
+# Exercise 6: Count the total number of digits in a number
