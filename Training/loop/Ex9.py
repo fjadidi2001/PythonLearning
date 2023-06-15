@@ -8,4 +8,4 @@
 
   soup = BeautifulSoup(r_html)
   title = soup.find('span', 'articletitle').string
-k
+
