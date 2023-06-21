@@ -18,7 +18,7 @@ def init_population(size , n):
     
     return list
 
-def cross_over(list):
+def diff(list):
     for i in range(0,len(list),2):
         child1 = list[i][:len(population[0])//2] + 
 list[i+1][len(population[0])//2 : len(population[0])-1]
