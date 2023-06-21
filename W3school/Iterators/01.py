@@ -7,7 +7,7 @@ n = 4
 m_r= 0.8
 
 
-def init_population(population_size , n):
+def init_population(size , n):
     list = []
     for i in range(size):
         member = []
