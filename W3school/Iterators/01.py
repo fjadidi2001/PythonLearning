@@ -2,8 +2,8 @@
 import random as rnd
 
 
-size = 100
-n = 6
+size = 200
+n = 4
 m_r= 0.8
 
 
