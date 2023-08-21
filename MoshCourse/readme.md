@@ -1,3 +1,7 @@
+🌟 Computer programs use variables to remember important information
+<br>
+🌟 A variable has a name and a value
+
 # py var
 - int <br> convert to int `int()`
 - float <br>convert to float `float()`
