@@ -54,8 +54,8 @@ name_def(argument)
 
 return None
 # handel error
-exit code 0 => its run correctly
-exit code 1 => program crashed => user enter an invalid value=>handle with try: and except
+exit code 0 => its run correctly<br>
+exit code 1 => program crashed => user enter an invalid<br> value=>handle with try: and except
 
 # comment
 added note, reminder, readability
