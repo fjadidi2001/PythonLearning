@@ -45,7 +45,7 @@ x, y, z=ty
 output=>x=4,y=5,z=8
 # dictionary
 {}
-key:value
+key:value<br>
 key must be unique
 # function
 def name_def(parameter): 
