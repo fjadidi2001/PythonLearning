@@ -1,4 +1,4 @@
-Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability and allows programmers to express concepts in fewer lines of code compared to other programming languages, making it an excellent choice for both beginners and experienced developers.
+> Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability and allows programmers to express concepts in fewer lines of code compared to other programming languages, making it an excellent choice for both beginners and experienced developers.
 
 ### Key Features of Python:
 
