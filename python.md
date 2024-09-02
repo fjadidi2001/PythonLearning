@@ -1,3 +1,5 @@
+# what is Python?
+
 > Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability and allows programmers to express concepts in fewer lines of code compared to other programming languages, making it an excellent choice for both beginners and experienced developers.
 
 ### Key Features of Python:
@@ -29,4 +31,7 @@
 - **Game Development**: Creating games and interactive applications.
 
 In summary, Python is a versatile and powerful programming language that is widely used across various domains, making it an excellent choice for both beginners and experienced developers looking to build applications efficiently.
+
+
+# python basics
 
