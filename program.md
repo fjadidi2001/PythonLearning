@@ -1,4 +1,4 @@
-A program is a set of instructions written in a programming language that tells a computer how to perform specific tasks or solve particular problems. It is essentially an implementation of an algorithm, translated into a format that a computer can understand and execute.
+> A program is a set of instructions written in a programming language that tells a computer how to perform specific tasks or solve particular problems. It is essentially an implementation of an algorithm, translated into a format that a computer can understand and execute.
 
 Key components of a program include:
 
