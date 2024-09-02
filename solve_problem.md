@@ -1,4 +1,4 @@
-A "solve problem" refers to the process of identifying a challenge or issue and finding a solution to address it. In the context of programming and computer science, solving a problem typically involves several key steps:
+> A "solve problem" refers to the process of identifying a challenge or issue and finding a solution to address it. In the context of programming and computer science, solving a problem typically involves several key steps:
 
 1. **Problem Definition**: Clearly understanding and defining the problem that needs to be solved. This includes identifying the requirements, constraints, and desired outcomes.
 
