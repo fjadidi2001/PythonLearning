@@ -33,5 +33,10 @@
 In summary, Python is a versatile and powerful programming language that is widely used across various domains, making it an excellent choice for both beginners and experienced developers looking to build applications efficiently.
 
 
-# python basics
+# Python basics
 
+- **Values**: Fixed data items that represent a specific piece of information, such as numbers, strings, or boolean values.
+
+- **Variables**: Named storage locations in a program that hold values and can be changed during program execution.
+
+- **Data Types**: Categories that define the kind of data a variable can hold, such as integers, floats, strings, and booleans, determining the operations that can be performed on them.
