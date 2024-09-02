@@ -1,18 +1,11 @@
-# الگوریتم چیست؟
-> الگوریتم یک مجموعه از دستورالعمل‌ها یا مراحل مشخص است که برای حل یک مسئله یا انجام یک کار خاص طراحی شده است. الگوریتم‌ها می‌توانند به صورت کلامی، نوشتاری یا حتی به شکل نمودارهای جریان (Flowchart) بیان شوند. 
+> An algorithm is a step-by-step procedure or formula for solving a problem. It is a finite sequence of well-defined instructions that, when followed, will lead to the desired outcome or solution. Algorithms can be expressed in various forms, including natural language, pseudocode, flowcharts, or programming languages.
 
-### ویژگی‌های الگوریتم:
-1. **دقت**: هر مرحله باید به وضوح تعریف شده باشد.
-2. **پایانی**: الگوریتم باید در نهایت به یک نتیجه یا پاسخ برسد.
-3. **ورودی**: الگوریتم ممکن است ورودی‌هایی داشته باشد که باید پردازش شوند.
-4. **خروجی**: الگوریتم باید خروجی‌هایی تولید کند که نشان‌دهنده نتیجه نهایی است.
-5. **کارایی**: الگوریتم باید به گونه‌ای طراحی شود که در زمان و منابع بهینه عمل کند.
+Key characteristics of algorithms include:
 
-### مثال ساده:
-یک الگوریتم برای جمع دو عدد می‌تواند به صورت زیر باشد:
-1. دو عدد را به عنوان ورودی دریافت کن.
-2. آن‌ها را با هم جمع کن.
-3. نتیجه را به عنوان خروجی نمایش بده.
+1. **Finiteness**: An algorithm must always terminate after a finite number of steps.
+2. **Definiteness**: Each step of the algorithm must be precisely defined and unambiguous.
+3. **Input**: An algorithm can have zero or more inputs, which are the values needed to perform the computation.
+4. **Output**: An algorithm produces one or more outputs, which are the results of the computation.
+5. **Effectiveness**: The operations to be performed in the algorithm must be basic enough to be done in a finite amount of time.
 
-آیا مایلید به مفاهیم دیگری بپردازیم یا توضیحات بیشتری درباره الگوریتم‌ها ارائه دهم؟
-
+Algorithms are fundamental to computer science and programming, as they provide a clear method for solving problems and performing tasks efficiently.
