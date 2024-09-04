@@ -147,42 +147,6 @@ def function():
    - Example:
      
 
-### Good Example: Applying the DRY Principle
-
-Instead, we can define a function to encapsulate the area calculation. This avoids code repetition:
-
-```python
-# Good Example: Applying DRY principle
-def calculate_triangle_area(base, height):
-    return 0.5 * base * height
-
-# Using the function to get area
-base1 = 10
-height1 = 5
-area1 = calculate_triangle_area(base1, height1)
-print(f"Area of triangle 1: {area1}")
-
-base2 = 8
-height2 = 4
-area2 = calculate_triangle_area(base2, height2)
-print(f"Area of triangle 2: {area2}")
-
-base3 = 6
-height3 = 9
-area3 = calculate_triangle_area(base3, height3)
-print(f"Area of triangle 3: {area3}")
-```
-
-
-### Benefits of the Good Example:
-1. **Single Responsibility**: The area calculation logic is now contained within the `calculate_triangle_area` function, which makes it easier to read and maintain.
-  
-2. **Easier Maintenance**: If we need to change the area calculation, we only have to do so in one place—within the `calculate_triangle_area` function.
-
-3. **Reusability**: The function can now be reused anywhere else in the code without needing to rewrite the calculation logic.
-
-### Conclusion
-By following the DRY principle, you can create more readable, maintainable, and efficient code. Whenever you find yourself duplicating code, consider extracting that logic into a function or a class. This not only improves your code quality but also saves time and effort in the long run.
 
 ### 9. **Utilize Pythonic Idioms**
    - Use idiomatic Python constructs when applicable (e.g., list comprehensions, dictionary comprehensions, and built-in functions).
