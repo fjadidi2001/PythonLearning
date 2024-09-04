@@ -147,25 +147,7 @@ def function():
 ### 8. **Follow the DRY Principle (Don't Repeat Yourself)**
    - Avoid redundant code by encapsulating repeated logic into functions or classes.
    - Example:
-     ```python
-     # Bad
-     def triangle_area(base, height):
-         return 0.5 * base * height
-
-     # This is duplicated functionality elsewhere in the code
-     area1 = triangle_area(10, 5)
-     area2 = triangle_area(8, 4)
-
-     # Good
-     def calculate_area(shape, dimensions):
-         if shape == "triangle":
-             base, height = dimensions
-             return 0.5 * base * height
-
-     area1 = calculate_area("triangle", (10, 5))
-     area2 = calculate_area("triangle", (8, 4))
-     ```
-
+     
 ### Bad Example: Repetitive Code
 
 In the following example, we have repetitive code that calculates the area of multiple triangles. If we want to change the calculation method, we’ll have to update it in multiple places.
