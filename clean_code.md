@@ -165,7 +165,6 @@ def function():
      area1 = calculate_area("triangle", (10, 5))
      area2 = calculate_area("triangle", (8, 4))
      ```
-Sure! The DRY principle—"Don't Repeat Yourself"—is a fundamental programming concept that emphasizes avoiding code duplication. When you repeat yourself in code, it becomes harder to maintain. Changes made in one place might need to be made in several other places, leading to potential bugs and inconsistencies. 
 
 ### Bad Example: Repetitive Code
 
