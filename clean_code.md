@@ -218,6 +218,7 @@ area3 = calculate_triangle_area(base3, height3)
 print(f"Area of triangle 3: {area3}")
 ```
 
+
 ### Benefits of the Good Example:
 1. **Single Responsibility**: The area calculation logic is now contained within the `calculate_triangle_area` function, which makes it easier to read and maintain.
   
