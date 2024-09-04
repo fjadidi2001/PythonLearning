@@ -165,6 +165,69 @@ def function():
      area1 = calculate_area("triangle", (10, 5))
      area2 = calculate_area("triangle", (8, 4))
      ```
+Sure! The DRY principle—"Don't Repeat Yourself"—is a fundamental programming concept that emphasizes avoiding code duplication. When you repeat yourself in code, it becomes harder to maintain. Changes made in one place might need to be made in several other places, leading to potential bugs and inconsistencies. 
+
+### Bad Example: Repetitive Code
+
+In the following example, we have repetitive code that calculates the area of multiple triangles. If we want to change the calculation method, we’ll have to update it in multiple places.
+
+```python
+# Bad Example: Repetitive code
+base1 = 10
+height1 = 5
+area1 = 0.5 * base1 * height1
+print(f"Area of triangle 1: {area1}")
+
+base2 = 8
+height2 = 4
+area2 = 0.5 * base2 * height2
+print(f"Area of triangle 2: {area2}")
+
+base3 = 6
+height3 = 9
+area3 = 0.5 * base3 * height3
+print(f"Area of triangle 3: {area3}")
+```
+
+### Problems with the Bad Example:
+- The logic for calculating the area of a triangle (i.e., `0.5 * base * height`) is repeated.
+- If we need to change the formula or improve its logic (e.g., for a more accurate value of `0.5`), we would have to make the same change in three different places.
+
+### Good Example: Applying the DRY Principle
+
+Instead, we can define a function to encapsulate the area calculation. This avoids code repetition:
+
+```python
+# Good Example: Applying DRY principle
+def calculate_triangle_area(base, height):
+    return 0.5 * base * height
+
+# Using the function to get area
+base1 = 10
+height1 = 5
+area1 = calculate_triangle_area(base1, height1)
+print(f"Area of triangle 1: {area1}")
+
+base2 = 8
+height2 = 4
+area2 = calculate_triangle_area(base2, height2)
+print(f"Area of triangle 2: {area2}")
+
+base3 = 6
+height3 = 9
+area3 = calculate_triangle_area(base3, height3)
+print(f"Area of triangle 3: {area3}")
+```
+
+### Benefits of the Good Example:
+1. **Single Responsibility**: The area calculation logic is now contained within the `calculate_triangle_area` function, which makes it easier to read and maintain.
+  
+2. **Easier Maintenance**: If we need to change the area calculation, we only have to do so in one place—within the `calculate_triangle_area` function.
+
+3. **Reusability**: The function can now be reused anywhere else in the code without needing to rewrite the calculation logic.
+
+### Conclusion
+By following the DRY principle, you can create more readable, maintainable, and efficient code. Whenever you find yourself duplicating code, consider extracting that logic into a function or a class. This not only improves your code quality but also saves time and effort in the long run.
 
 ### 9. **Utilize Pythonic Idioms**
    - Use idiomatic Python constructs when applicable (e.g., list comprehensions, dictionary comprehensions, and built-in functions).
