@@ -209,6 +209,7 @@ By organizing your code this way, you adhere to the DRY principle, leading to cl
  
 
 
+
 ### 9. **Utilize Pythonic Idioms**
    - Use idiomatic Python constructs when applicable (e.g., list comprehensions, dictionary comprehensions, and built-in functions).
    - Example:
