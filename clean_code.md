@@ -88,10 +88,8 @@ Let's break down the code to understand what it does and determine the output.
 
 2. **Usage**:
    - `get_student_average([85, 90, 78])` is called with the list of grades `[85, 90, 78]`. The sum of the grades is **85 + 90 + 78 = 253** and the number of grades is **3**. 
-   - Therefore, the average is calculated as:
-     \[
-     \text{Average} = \frac{253}{3} = 84.3333\ldots
-     \]
+
+     
 
 3. **Printing the Student Info**:
    - The average returned from `get_student_average` is then passed to the `print_student_info` function along with the name `"Alice"`.
