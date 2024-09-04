@@ -110,19 +110,46 @@ Student: Alice, Average: 84.33
    - Use consistent indentation (4 spaces per indentation level is the Python standard).
    - Properly space expressions to enhance readability.
    - Example:
-     ```python
-     # Bad
-     if x>0:
-         print("Positive")
-     else:
-         print("Negative or Zero")
-     
-     # Good
-     if x > 0:
-         print("Positive")
-     else:
-         print("Negative or Zero")
-     ```
+I apologize for any confusion in the previous example regarding consistent indentation and spacing. Let’s clarify the concept with clearer examples that emphasize differences in indentation and spacing.
+
+### Bad Indentation and Spacing Example
+
+Here's an example that illustrates poor indentation and spacing practices:
+
+```python
+def function():
+x = 5  # Indentation is wrong here
+if x > 0:
+ print("Positive")  # Inconsistent indentation
+else:
+  print("Negative or Zero") # Inconsistent indentation and spacing
+```
+
+### Good Indentation and Spacing Example
+
+Here's the improved version with proper indentation and consistent spacing:
+
+```python
+def function():
+    x = 5  # Correct indentation
+    if x > 0:
+        print("Positive")  # Consistent indentation
+    else:
+        print("Negative or Zero")  # Consistent indentation
+```
+
+### Key Differences
+1. **Indentation**:
+   - In the **bad example**, the function body and the `if` statement are not indented consistently, which can lead to `IndentationError` in Python.
+   - In the **good example**, both the `x` assignment and the `print` statements are correctly indented.
+
+2. **Spacing**:
+   - In the **bad example**, there is inconsistent spacing around the comparison operator in `if x > 0:`.
+   - The **good example** maintains consistent spacing, which improves readability.
+
+### Conclusion
+Using consistent indentation (typically 4 spaces per level in Python) and maintaining proper spacing around operators and after commas makes the code more readable and less prone to syntax errors. It's essential to adhere to these conventions for clarity and maintainability in your code.
+
 
 ### 8. **Follow the DRY Principle (Don't Repeat Yourself)**
    - Avoid redundant code by encapsulating repeated logic into functions or classes.
