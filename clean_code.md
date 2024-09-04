@@ -109,10 +109,6 @@ Student: Alice, Average: 84.33
 ### 7. **Consistent Indentation and Spacing**
    - Use consistent indentation (4 spaces per indentation level is the Python standard).
    - Properly space expressions to enhance readability.
-   - Example:
-I apologize for any confusion in the previous example regarding consistent indentation and spacing. Let’s clarify the concept with clearer examples that emphasize differences in indentation and spacing.
-
-### Bad Indentation and Spacing Example
 
 Here's an example that illustrates poor indentation and spacing practices:
 
