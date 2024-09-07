@@ -87,5 +87,5 @@ if not value:
 
 ### Summary
 
-Logical expressions in Python allow you to create complex conditions by combining multiple boolean expressions, which can be controlled by logical operators. Understanding how these operators work is crucial for writing conditional statements and controlling the flow of your programs.
+Logical expressions in Python allow you to create complex conditions by combining multiple boolean expressions, which logical operators can control. Understanding how these operators work is crucial for writing conditional statements and controlling the flow of your programs.
 
