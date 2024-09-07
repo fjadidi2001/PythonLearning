@@ -1,7 +1,5 @@
 In Python, making selection decisions typically involves using conditional statements such as `if`, `elif`, and `else`. These constructs allow your program to execute different blocks of code based on certain conditions.
 
-Here's a basic overview of how selection works in Python:
-
 ### Basic Syntax
 
 1. **If Statement**: This checks a condition and executes a block of code if the condition is `True`.
