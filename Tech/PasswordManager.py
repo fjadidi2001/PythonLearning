@@ -50,7 +50,6 @@ while True:
 
 
 '''
-This code is a Python script that implements a simple password manager using the `cryptography` library for encryption. Here’s a concise explanation of its key components:
 
 1. **Key Generation (Commented Out)**:
    - The commented function `write_key()` was intended to generate a new encryption key using `Fernet.generate_key()` and save it to a file named `key.key`. This is currently not active in the code.
